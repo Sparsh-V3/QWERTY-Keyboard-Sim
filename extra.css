@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #qwerty {
+    padding: 0.2rem;
+    border: 2px solid red;
+    width: 85%;
+    margin: 10% auto;
+    display: flex;
+    gap: 0.2rem;
+  }
+  
+  #qwerty .section1 {
+    /* border: 1px solid blue; */
+    width: 60%;
+  }
+  
+  #qwerty .section1 div {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  #qwerty .section1 .row6 button:nth-child(5) {
+    width: 20rem;
+  }
+  
+  #qwerty .section1 div button {
+    height: 46px;
+    box-sizing: content-box;
+  }
+  
+  #qwerty .section1 div button p {
+    margin: 0;
+  }
+  
+  #qwerty .section2 {
+    width: 15%;
+    /* border: 2px solid black; */
+  }
+  
+  #qwerty .section2 div {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  #qwerty .section2 div button {
+    height: 46px;
+    box-sizing: content-box;
+  }
+  
+  #qwerty .section3 {
+    width: 25%;
+    border: 2px solid black;
+  }
+  
+  #qwerty .section3 .row1 {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  #qwerty .section3 .row2 {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  #qwerty .section3 div button {
+    height: 46px;
+    box-sizing: content-box;
+  }
+  
+  #qwerty .section3 .new {
+      display: flex;
+  }
+  
+  #qwerty .section3 .new .new1 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 75%;
+  }
+  
+  #qwerty .section3 .new .new2 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }

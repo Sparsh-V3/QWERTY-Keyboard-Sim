@@ -1,0 +1,11 @@
+.s2-layout div {
+  display: flex;
+}
+
+.s2-layout div button {
+  flex: 1;
+}
+
+.s2-layout #s2-row button:nth-child(5) {
+  flex: 0 0 500px;
+}

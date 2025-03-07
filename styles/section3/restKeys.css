@@ -1,0 +1,30 @@
+#s3-restPart {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#s3-restPart #s3-restArea1 #s3-restPart1 {
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#s3-restPart #s3-restArea1 #s3-restPart2 button:first-child {
+    width: 100px;
+}
+
+#s3-restPart #s3-restArea2 #s3-restPart3 {
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+#s3-restPart #s3-restArea2 #s3-restPart3 button:first-child {
+    height: 100px;
+}
+
+#s3-restPart #s3-restArea2 #s3-restPart3 button:last-child {
+    height: 100px;
+}

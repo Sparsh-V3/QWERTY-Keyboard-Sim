@@ -1,0 +1,8 @@
+.s1-layout div {
+    display: flex;
+}
+
+.s1-layout div button {
+    flex: 1;
+}
+
